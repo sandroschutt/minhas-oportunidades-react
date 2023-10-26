@@ -1,0 +1,46 @@
+@import "styles/variables.module.scss";
+
+.content {
+  span {
+    display: inline;
+    margin-right: 8px;
+  }
+
+  div {
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  .empresa {
+    margin-bottom: 40px;
+  }
+
+  .empresa span {
+    font-size: 20px;
+  }
+
+  .jobInfo {
+    border-bottom: 1px solid $border-light;
+    padding-bottom: 50px;
+    margin-bottom: 16px;
+
+    .status {
+      margin-right: 16px;
+    }
+
+    .categoria {
+      background: #000;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+    }
+  }
+}

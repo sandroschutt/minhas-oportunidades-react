@@ -1,0 +1,46 @@
+// SIZES
+// pages
+$pageMinHeight: 87vh;
+
+// text
+$title: 2.5rem;
+
+// COLORS
+// background
+$bg-dark: #000000;
+
+// text
+$text-light: #808080;
+
+// borders
+$border-light: #ccc;
+
+// PADDING
+$inputPad: 10px;
+$buttonPad: 6px 12px;
+
+section {
+    min-height: 80vh;
+    padding: 32px;
+}
+
+input, select, textarea {
+    display: block;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid $border-light;
+    padding: $inputPad;
+}
+
+textarea.edit {
+    border: 1px solid $border-light;
+    min-height: 400px;
+}

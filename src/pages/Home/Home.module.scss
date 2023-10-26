@@ -1,0 +1,20 @@
+@import "styles/variables.module.scss";
+
+.jobItem {
+  border: none !important;
+  border-bottom: 1px solid #ccc !important;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+
+  .itemFunctions {
+    padding: 10px 0;
+
+    a {
+      color: black;
+      cursor: pointer;
+    }
+  }
+}

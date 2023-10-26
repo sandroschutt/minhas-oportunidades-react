@@ -1,0 +1,26 @@
+@import "styles/variables.module.scss";
+
+.filters {
+  padding: 16px 0;
+  border-bottom: 1px solid #ccc;
+
+  select {
+    max-width: 100%;
+    padding: 4px 12px;
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  }
+
+  option {
+    font-size: 12px;
+  }
+
+  .status {
+    border-right: 2px solid rgb(128, 128, 128);
+  }
+}
