@@ -1,0 +1,68 @@
+{
+  "user": {
+    "id": "0",
+    "username": "User Name",
+    "user_email": "user@email.com",
+    "password": "**********",
+    "date_registered": "Date()",
+    "last_login": "Date()",
+
+    "settings": {
+      "user_id": "0",
+      "tema": ["light", "dark"],
+      "tags": [],
+      "categorias": [],
+      "portais": []
+    },
+
+    "vaga": {
+      "user_id": "0",
+      "id": "0",
+      "nome": "Nome da vaga",
+      "empresa": "Empresa",
+      "portal": [
+        "linkedin",
+        "gupy",
+        "jobs",
+        "netvagas",
+        "trampos",
+        "e-mail",
+        "outros"
+      ],
+      "status": [
+        "aplicado",
+        "testes",
+        "entrevista",
+        "reprovado",
+        "aprovado",
+        "vaga-encerrada"
+      ],
+      "url": "https://vaga.com/vaga",
+      "categoria": [
+        "web",
+        "wordpress",
+        "backend",
+        "frontend",
+        "fullstack",
+        "analista"
+      ],
+      "nivel": [
+        "estagio",
+        "trainee",
+        "junior",
+        "pleno",
+        "senior",
+        "freelancer"
+      ],
+      "contrato": ["CLT", "PJ", "outro"],
+      "regime": ["remoto", "presencial", "hibrido"],
+      "localizacao": "Cidade - ES",
+      "beneficios": [],
+      "dataaplicacao": "Date()",
+      "dataretorno": "Date()",
+      "descricao": "Lorem ipsum et dolor en my bagos su etmos muito mesmo",
+      "is_favorite": "boolean",
+      "is_trash": "boolean"
+    }
+  }
+}
